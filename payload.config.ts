@@ -1,7 +1,8 @@
 import { buildConfig } from 'payload/config';
 import path from 'path';
 import Users from './collections/Users';
-import Workflows from './collections/Workflows';
+// import Workflows from './collections/Workflows';
+// TODO: Uncomment and ensure './collections/Workflows.ts' exists, or update the path if the file is elsewhere.
 import WorkflowLogs from './collections/WorkflowLogs';
 import { evaluateAndAdvanceWorkflow, logWorkflowAction, sendWorkflowNotification } from './utilities/evaluateAndAdvanceWorkflow';
 // import WorkflowPanel from './admin/components/WorkflowPanel';
